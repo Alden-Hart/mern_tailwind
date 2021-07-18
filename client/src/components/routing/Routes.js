@@ -16,7 +16,7 @@ import PrivateRoute from '../routing/PrivateRoute';
 
 const Routes = props => {
   return (
-    <section className="container rounded-t-xl overflow-hidden bg-gradient-to-r from-purple-50 to-purple-100 p-10">
+    <section className="rounded-t-xl overflow-hidden bg-gradient-to-r from-purple-50 to-purple-100 p-10">
       <Alert />
       <Switch>
         <Route exact path="/register" component={Register} />
